@@ -1,0 +1,374 @@
+.Parent1{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.C1,.C2,.C3{
+    width: 400px;
+    height: 195px;
+    padding: 35px;
+    padding-right: 90px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: brown;
+}
+
+h2:hover{
+   text-shadow: 2px 2px 5px blue;
+   font-size: 2.7rem;
+}
+
+h1:hover{
+    text-shadow: 2px 2px 5px blue;
+    font-size: 4rem;
+}
+p:hover{
+    text-shadow: 2px 2px 5px blue;
+    font-size: 1.1rem;
+}
+h3:hover{
+    text-shadow: 2px 2px 5px black;
+    font-size: 1.6rem;
+}
+
+img:hover{
+    box-shadow: 2px 2px 6px blue;
+    width: 310px;
+    height: 310px;
+}
+.First{
+ font-weight: bold;
+ padding-top: 20px;
+ padding-left: 20px;
+ padding-bottom: 20px;
+ color: red;
+ font-size: 20px;
+ font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+}
+p{
+    font-family: 'Asap Condensed', sans-serif;
+}
+.Second{
+    display: flex;
+    background-color: red;
+    color: white;
+    padding-bottom: 15px;
+
+}
+
+.Parent1 h2{
+    color: white;
+}
+.Parent1 p{
+    color: tomato;
+}
+.SC1{
+    width: 600px;
+    height: 270px;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 200px;
+
+}
+
+.SC2{
+    width: 100%;
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+
+@media (min-width:50px) and (max-width:319px){
+
+    .Second,.Parent1{
+        flex-direction:column;
+    }
+    .First{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+   
+    h2:hover{
+        font-size: 2.1rem;
+    }
+    .Parent1 p:hover{
+        font-size: 0.71rem;
+    }
+
+    h1:hover{
+        font-size: 3.2rem;
+    }
+
+    .Second p:hover{
+        font-size: 0.8rem;
+    }
+    h3:hover{
+        font-size: 1rem;
+    }
+
+    .Parent1{
+        font-size: 0.7rem;
+        max-width: 20rem;
+    }
+    .C1,.C2,.C3{
+        margin: auto;
+        margin-bottom: 1rem;
+        max-width: 8rem;
+    }
+
+    img{
+        width: 100%;
+        max-width: 150px;
+        max-height: 150px;
+        display: block;
+        margin: auto;
+
+    }
+
+    .Second .SC1{
+        text-align: center;
+        font-size: 0.7rem;
+        margin: auto;
+        padding-left: 3rem;
+        padding-right: 7rem;
+        padding-bottom: 1.5rem;
+        max-width: 10rem;
+        max-height: 10rem;
+        
+    }
+}
+
+@media (min-width:320px) and (max-width:480px){
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .Second,.Parent1{
+        flex-direction:column;
+    }
+    .First{
+        font-size: 1rem;
+        max-width: 25rem;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 1.8rem;
+    }
+    .Parent1{
+        font-size: 0.8rem;
+        max-width: 29rem;
+    }
+    .C1,.C2,.C3{
+        margin: auto;
+        margin-bottom: 1rem;
+        max-width: 12rem;
+    }
+
+    h3:hover{
+        font-size: 1.5rem;
+    }
+    h1:hover{
+        font-size: 2.8rem;
+    }
+    .Second p:hover{
+        font-size: 0.73rem;
+    }
+
+    img{
+        width: 100%;
+        max-width: 150px;
+        max-height: 150px;
+        display: block;
+        margin: auto;
+
+    }
+
+    .Second .SC1{
+        text-align: center;
+        font-size: 0.75rem;
+        margin: auto;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-bottom: 2rem;
+        max-width: 7rem;
+        max-height: 10rem;
+        
+    }
+
+    .Second{
+        max-width: 30rem;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+
+    .Second,.Parent1{
+        flex-direction:column;
+    }
+    .First{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .Parent1{
+        font-size: 1rem;
+
+    }
+    .C1,.C2,.C3{
+        margin: auto;
+        margin-bottom: 1rem;
+        max-width: 19rem;
+    }
+
+    img{
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: auto;
+
+    }
+
+    .Second .SC1{
+        text-align: center;
+        font-size: 1rem;
+        margin: auto;
+        padding-left: 5rem;
+        padding-right: 7rem;
+        max-width: 20rem;
+        max-height: 10rem;
+        
+    }
+
+
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+    .First{
+        font-size: 1rem;
+    }
+
+    .Parent1{
+        font-size: 0.8rem;
+        justify-content: space-between;
+    }
+
+    .C1,.C2,.C3{
+
+        margin: auto;
+        margin-right: 1.5rem;
+        max-width: 10rem;
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        max-width: 150px;
+        max-height: 150px;
+        display: block;
+        margin: auto;
+
+    }
+
+    h2:hover{
+        font-size: 2.1rem;
+    }
+
+    .Parent1 p:hover{
+        font-size: 0.82rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .Second .SC1{
+        font-size: 1rem;
+        margin: auto;
+        padding-left: 5rem;
+        padding-right: 7rem;
+        max-width: 20rem;
+        max-height: 10rem;
+        
+    }
+    .Second{
+        padding-bottom: 6.5rem;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1280px){
+
+    .First{
+        font-size: 1rem;
+    }
+
+    .Parent1{
+        font-size: 1rem;
+        justify-content: space-between;
+    }
+    .C1,.C2,.C3{
+        font-size: 1rem;
+        margin-right: 1rem;
+        max-width: 15rem;
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+    
+
+    img{
+        width: 100%;
+        height: 100%;
+        padding-top: 1rem;
+        max-width: 250px;
+        max-height: 250px;
+        display: block;
+        margin: auto;
+
+    }
+
+    .Second .SC1{
+        font-size: 1rem;
+        margin: auto;
+        padding-left: 5rem;
+        padding-right: 7rem;
+        max-width: 23rem;
+        max-height: 10rem;
+        
+    }
+
+    .Second{
+        padding-top: 5rem;
+        padding-bottom: 6rem;
+    }
+}

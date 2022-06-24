@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+<style>
+    img {
+        padding: 13px;
+    }
+    .row{
+        padding: 13px;
+    }
+</style>
+
+
+<body>
+
+    <!-- add container -->
+    <div class="container text-center border mt-5 bg-success">
+        <div class="row">
+            <h1 class="bg-primary border">
+                online shopping
+            </h1>
+            <div class="col">
+                <p class="border text-center display-6">
+                    here we can shop every body here no need
+                    to go out and we can details here and we can pay amount online and
+                    shop peacefully
+                </p>
+            </div>
+        </div>
+        <div class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-3">
+            <!-- vertical card -->
+            <div class="col">
+                <div class="card bg-secondary">
+                    <!-- <div class="card-header">header</div> -->
+                    <!-- image -->
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.6018bFOrPGQKvW0stllQ5wHaEK&pid=Api&P=0&w=337&h=190"
+                        class="w-100  mx-auto d-block btn-warning" alt="">
+
+
+                    <!-- body of card -->
+                    <div class="card-body">
+                        <h2 class="card-title">AMAZON</h2>
+                        <h4 class="card-text">iphone</h4>
+
+
+                        <!-- button to invoke modal -->
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#realme">specifications</button>
+                        <!-- modal -->
+                        <div class="modal fade" id="realme" data-bs-backdrop="static">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        Phone details
+                                        
+                                        <button class="btn-close btn-danger" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        
+                                        <div class="row">
+                                            <div class="col-sm-4 d-flex align-items-center">
+                                                <img class="w-100 bg-success border"
+                                                    src="https://tse3.mm.bing.net/th?id=OIP.WhmeRDKJwsuR8oMKOVC_ugHaE7&pid=Api&P=0&w=274&h=183"
+                                                    alt="" >
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <h1>Product</h1>
+                                                <h4>price:$34,900</h4>
+                                                <h4>specification:best user experience
+                                                    and camera
+                                                </h4>
+                                                <h4>battery:5000 mah</h4>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-success">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- second card -->
+
+            <div class="col">
+                <div class="card bg-primary">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.eV-Ph8HL_ajqZR0tOmfVDgHaE8&pid=Api&P=0&w=229&h=153"
+                        class="w-100 mx-auto d-block bg-warning" alt="">
+
+
+                    <!-- body of card -->
+                    <div class="card-body">
+                        <h2 class="card-title">flipkart</h2>
+                        <h4 class="card-text">realme</h4>
+
+                        
+                        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#pink">Specifications</button>
+                     
+                        <div class="modal fade" id="pink" data-bs-backdrop="static">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        phone details
+                                      
+                                        <button class="btn-close btn-danger" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                       
+                                        <div class="row">
+                                            <div class="col-sm-4 d-flex align-items-center">
+                                                <img src="https://tse3.mm.bing.net/th?id=OIP.5kR3CZmWHEbFfWu0iDQCLAHaEK&pid=Api&P=0&w=269&h=152"
+                                                    alt="" class="w-100 bg-success border">
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <h1>Product</h1>
+                                                <h4>price:$1900</h4>
+                                                <h4>specification:fast charging(65w)</h4>
+                                                <h4>battery:45000 mah</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-success">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col">
+                <div class="card  bg-info">
+                    
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.AVMVDTj1DfrBfGRLzkrg4QHaDC&pid=Api&P=0&w=413&h=170"
+                        class="w-100 mx-auto d-block bg-warning" alt="">
+
+                    <div class="card-body">
+                        <h2 class="card-title">snap-deal</h2>
+                        <h4 class="card-text">samsung</h4>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vankay">Specifications</button>
+                        <div class="modal fade" id="vankay" data-bs-backdrop="static">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        phone details
+                                        <button class="btn-close btn-danger" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-sm-4 d-flex align-items-center">
+                                                <img  styly="padding: 13px;" src="https://tse4.mm.bing.net/th?id=OIP.RferBcFV_9P-mgVJRR2EQQHaG_&pid=Api&P=0&w=161&h=153" alt="" class="w-100 rounded bg-success">
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <h1>Product</h1>
+                                                <h4>price:$2800</h4>
+                                                <h4>specification:high quality cameraa</h4>
+                                                <h4>battery:6000 mah</h4>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-success">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
